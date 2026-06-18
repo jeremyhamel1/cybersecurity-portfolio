@@ -6,10 +6,11 @@ GRC Analyst | Risk & Compliance | CT/MA/NY
 ## About
 One sentence. Who you are, what your background is, what you're targeting.
 
+
 ## Certifications
 - CompTIA Security+
 - Google Cybersecurity Professional Certificate (in progress)
-- M.S. Cybersecurity, [Your School], GPA 3.8
+- M.S. Cybersecurity, Saint Bonaventure University, GPA 3.8
 
 ## Portfolio Artifacts
 | Artifact | Framework | Skills Demonstrated |

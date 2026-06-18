@@ -1,6 +1,27 @@
 
+## Skills Demonstrated
+- Incident analysis and root cause identification
+- Applying the NIST CSF five core functions to a real incident
+- Network threat identification (DoS/ICMP flood, firewall misconfiguration)
+- Containment and recovery prioritization 
+- Post-incident documentation and playbook improvement
 
-**Scenario**
+## Key Decisions & Methodology
+The incident was analyzed through each NIST CSF function in sequence. 
+Containment priority was given to preserving critical service bandwidth by 
+taking non-critical systems offline before restoring operations. Firewall 
+hardening recommendations focused on stateful packet inspection and rate 
+limiting to address both the immediate attack vector and similar DoS variants. 
+Log review post-recovery confirmed no data exfiltration or persistence 
+mechanisms, informing the incident closure decision.
+
+## Artifact
+[Incident Report Analysis](./incident-report-analysis.docx)
+
+## Framework
+NIST CSF
+
+ ## Scenario
 
 You are a cybersecurity analyst working for a multimedia company that offers web design services, graphic design, and social media marketing solutions to small businesses. Your organization recently experienced a DoS attack, which compromised the internal network for two hours until it was resolved.
 During the attack, your organization’s network services suddenly stopped responding due to an incoming flood of ICMP packets. Normal internal network traffic could not access any network resources. The incident management team responded by blocking incoming ICMP packets, stopping all non-critical network services offline, and restoring critical network services. 
